@@ -5,6 +5,10 @@ class App < Sinatra::Base
     @session = session
   end
   
+  configure do 
+    enable :sessions
+    set :
+  
   post '/checkout' do 
  
   end 
